@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name linkDumpApp.Toasty
+ * @name linkJayApp.Toasty
  * @description
  * # Toasty
- * Service in the linkDumpApp.
+ * Service in the linkJayApp.
  */
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .service('Toasty', function ($mdToast) {
 
       //Our functions to return

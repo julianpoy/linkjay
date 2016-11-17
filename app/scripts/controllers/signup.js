@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name linkDumpApp.controller:SignupCtrl
+ * @name linkJayApp.controller:SignupCtrl
  * @description
  * # SignupCtrl
- * Controller of the linkDumpApp
+ * Controller of the linkJayApp
  */
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .controller('SignupCtrl', function($scope, $location, $cookies,
       Join, Toasty) {
     this.awesomeThings = [

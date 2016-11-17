@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name linkDumpApp.controller:LinksCtrl
+ * @name linkJayApp.controller:LinksCtrl
  * @description
  * # LinksCtrl
- * Controller of the linkDumpApp
+ * Controller of the linkJayApp
  */
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .controller('LinksCtrl', function($scope, $sce,
       $cookies, $timeout, Dumps, Dump, Labels, Label,
       $location, $http, Embedder, Toasty) {

@@ -395,7 +395,7 @@ module.exports = function(grunt) {
     ngtemplates: {
       dist: {
         options: {
-          module: 'linkDumpApp',
+          module: 'linkJayApp',
           htmlmin: '<%= htmlmin.dist.options %>',
           usemin: 'scripts/scripts.js'
         },

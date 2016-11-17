@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name linkDumpApp
+ * @name linkJayApp
  * @description
- * # linkDumpApp
+ * # linkJayApp
  *
  * Main module of the application.
  */
 angular
-  .module('linkDumpApp', [
+  .module('linkJayApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

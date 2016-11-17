@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name linkDumpApp.Dumps
+ * @name linkJayApp.Dumps
  * @description
  * # Dumps
- * Service in the linkDumpApp.
+ * Service in the linkJayApp.
  */
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .factory('Dumps', ['$resource', 'ENV', function($resource, ENV) {
 
     return $resource(ENV.API_BASE + '/dumps/', {}, {
@@ -26,7 +26,7 @@ angular.module('linkDumpApp')
 
   }]);
 
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .factory('Dump', ['$resource', 'ENV', function($resource, ENV) {
 
     return $resource(ENV.API_BASE + '/dumps/:id', {

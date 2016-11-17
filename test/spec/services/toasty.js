@@ -3,7 +3,7 @@
 describe('Service: Toasty', function () {
 
   // load the service's module
-  beforeEach(module('linkDumpApp'));
+  beforeEach(module('linkJayApp'));
 
   // instantiate service
   var Toasty;

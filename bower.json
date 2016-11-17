@@ -19,7 +19,7 @@
     "grunt-contrib-imagemin": "1.0.0"
   },
   "appPath": "app",
-  "moduleName": "linkDumpApp",
+  "moduleName": "linkJayApp",
   "overrides": {
     "bootstrap": {
       "main": [

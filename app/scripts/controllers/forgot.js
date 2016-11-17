@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name linkDumpApp.controller:ActivenavCtrl
+ * @name linkJayApp.controller:ActivenavCtrl
  * @description
  * # forgotCtrl
- * Controller of the linkDumpApp
+ * Controller of the linkJayApp
  */
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .controller('ForgotCtrl', function($scope, $location,
       $cookies, $routeParams, Forgot, Session,
       Toasty) {

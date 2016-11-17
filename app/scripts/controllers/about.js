@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name linkDumpApp.controller:AboutCtrl
+ * @name linkJayApp.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the linkDumpApp
+ * Controller of the linkJayApp
  */
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .controller('AboutCtrl', function() {
     this.awesomeThings = [
       'HTML5 Boilerplate',
