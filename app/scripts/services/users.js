@@ -2,16 +2,16 @@
 
 /**
  * @ngdoc service
- * @name linkDumpApp.Users
+ * @name linkJayApp.Users
  * @description
  * # Users
- * Service in the linkDumpApp.
+ * Service in the linkJayApp.
  */
 
 //For nodemon use http://localhost:3000/
 
 
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .factory('Login', ['$resource', 'ENV', function($resource, ENV) {
 
     return $resource(ENV.API_BASE + '/users/login', {}, {
@@ -24,7 +24,7 @@ angular.module('linkDumpApp')
     });
   }]);
 
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .factory('Join', ['$resource', 'ENV', function($resource, ENV) {
 
     return $resource(ENV.API_BASE + '/users/join', {}, {
@@ -37,7 +37,7 @@ angular.module('linkDumpApp')
     });
   }]);
 
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .factory('UserUpdate', ['$resource', 'ENV', function($resource, ENV) {
 
     return $resource(ENV.API_BASE + '/users/', {}, {
@@ -50,7 +50,7 @@ angular.module('linkDumpApp')
     });
   }]);
 
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .factory('Forgot', ['$resource', 'ENV', function($resource, ENV) {
 
     return $resource(ENV.API_BASE + '/users/forgot', {}, {
@@ -63,7 +63,7 @@ angular.module('linkDumpApp')
     });
   }]);
 
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .factory('Session', ['$resource', 'ENV', function($resource, ENV) {
 
     return $resource(ENV.API_BASE + '/users/session', {}, {

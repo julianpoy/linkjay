@@ -3,7 +3,7 @@
 describe('Controller: LoginCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('linkDumpApp'));
+  beforeEach(module('linkJayApp'));
 
   var LoginCtrl,
     scope;

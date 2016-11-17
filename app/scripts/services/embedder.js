@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name linkDumpApp.Embedder
+ * @name linkJayApp.Embedder
  * @description
  * # Embedder
- * Service in the linkDumpApp.
+ * Service in the linkJayApp.
  */
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .service('Embedder', function ($timeout, $sce, $http) {
 			var embedded = null;
 			var visible = false;

@@ -1,16 +1,16 @@
-# linkDrops
+# LinkJay
 
 (Work in progress, Readme shall be update with application)
 
 Last Update: 6/27/15, between v0.1 and v0.2
 
-![linkDrops Img](https://files.aaronthedev.com/$/jrkhv)
+![LinkJay Img](https://files.aaronthedev.com/$/jrkhv)
 
-##What Is linkDrops?
-It's a website that will store all of those links you wanted to go back to, but never could, in an easy to use interface. "linkDrops." is perfect for things like youtube videos, articles, and repos!
+##What Is LinkJay?
+It's a website that will store all of those links you wanted to go back to, but never could, in an easy to use interface. "LinkJay." is perfect for things like youtube videos, articles, and repos!
 
 ##Team
-Currently our team contsits of Aaron Turner, @torch2424, and Julian Poyourow, @julianpoy
+Currently our team contsits of Julian Poyourow, @julianpoy and Alexis Luter, @alexisluter
 
 ## Build & Development
 
@@ -33,7 +33,7 @@ version 0.12.1.
 Run `grunt` for building and `grunt serve` for preview. We are also using  development enviorenments on the application. please add `:dev` (Development) or `:prod` (Production) to the end of the statements. For instance, in order to live serve the application in development mode, use `grunt serve:dev`
 
 **Starting the Backend: **
-From the application directory, cd (change directory) into the backend folder. Then, run `mongo` and then `use ` followed by the name of your database, so for example, `use linkdrops`.
+From the application directory, cd (change directory) into the backend folder. Then, run `mongo` and then `use ` followed by the name of your database, so for example, `use LinkJay`.
 
 After, in a new terminal, run `nodemon`, and everything should be up and running!
 
