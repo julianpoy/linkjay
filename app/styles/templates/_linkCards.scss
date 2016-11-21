@@ -56,11 +56,16 @@
         }
 
         .dropURL {
-
+						color: $dropURL;
             vertical-align: -webkit-baseline-middle;
             word-wrap: break-word;
             max-width: calc($columnWidth - 50px);
             width: 100%;
+
+						&:hover {
+							text-decoration: none;
+							color: $dropURLHover;
+						}
         }
 
         .dropFavicon {
@@ -247,7 +252,12 @@
         .linkLabelText {
             margin-right: 5px;
             font-size: 15px;
-            color: $navBG;
+            color: $labelText;
+
+						&:hover {
+							color: $labelTextHover;
+							text-decoration: none;
+						}
         }
 
         .labelInputContainer {
