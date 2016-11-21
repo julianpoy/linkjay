@@ -77,30 +77,15 @@ h1 {
 
 .mainNav {
     background-color: $navBG;
-    border-color: $navBG;
+    border: none;
     color: $navText;
     border-radius: 0px;
+		box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
 }
 
-.activeTab {
-    background-color: $navActiveTab !important;
-}
-
-.navText {
-        color: $navText !important;
-}
-
-.navbar-toggle {
-    background-color: $navBG;
-    border-color: $navBG !important;
-
-    &:hover {
-        @extend .activeTab;
-    }
-
-    &:focus {
-        @extend .activeTab;
-    }
+.navbar-brand span {
+	color: $navText;
+  font-weight: 700;
 }
 
 //Container overrides
