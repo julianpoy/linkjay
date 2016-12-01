@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name linkDumpApp.controller:MainCtrl
+ * @name linkJayApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the linkDumpApp
+ * Controller of the linkJayApp
  */
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .controller('MainCtrl', function($scope, $location, $cookies, Session) {
 
     this.awesomeThings = [

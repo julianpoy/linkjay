@@ -13,9 +13,11 @@
 
         </button>
 
-        <a class="navbar-brand navText">
-            <img class = "navbarIcon"
-             src = "/images/linkDrops32.gif" />linkDrops.</a>
+        <a class="navbar-brand">
+            <img src="images/bird.png"
+						 width="32px" />
+						 <span>LinkJay</span>
+				 </a>
       </div>
 
       <div class="collapse navbar-collapse animated fadeInDown"
@@ -26,7 +28,7 @@
           <li ng-class="{activeTab:isActive('/')}" ng-hide = "isLoggedIn()"><a class = "navText" href="#/">Home</a></li>
           <li ng-class="{activeTab:isActive('/signup')}" ng-hide = "isLoggedIn()"><a class = "navText" ng-href="#/signup">Sign Up</a></li>
           <li ng-class="{activeTab:isActive('/login')}" ng-hide = "isLoggedIn()"><a class = "navText" ng-href="#/login">Log In</a></li>
-          <li ng-class="{activeTab:isActive('/dumps')}" ng-show = "isLoggedIn()"><a class = "navText" ng-href="#/dumps">Dumps</a></li>
+          <li ng-class="{activeTab:isActive('/dumps')}" ng-show = "isLoggedIn()"><a class = "navText" ng-href="#/dumps">Links</a></li>
           <li ng-class="{activeTab:isActive('/myaccount')}" ng-show = "isLoggedIn()"><a class = "navText" ng-href="#/myaccount">My Account</a></li>
           <li ng-show = "isLoggedIn()"><a class = "navText" ng-click = "logout()" href="#/">Log Out</a></li>
         </ul>

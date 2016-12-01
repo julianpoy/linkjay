@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name linkDumpApp.controller:ActivenavCtrl
+ * @name linkJayApp.controller:ActivenavCtrl
  * @description
  * # ActivenavCtrl
- * Controller of the linkDumpApp
+ * Controller of the linkJayApp
  */
-angular.module('linkDumpApp')
+angular.module('linkJayApp')
   .controller('NavCtrl', function($scope, $location, $cookies) {
     this.awesomeThings = [
       'HTML5 Boilerplate',

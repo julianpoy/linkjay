@@ -1,18 +1,18 @@
 'use strict';
 
-describe('Service: Users', function () {
+describe('Service: Toasty', function () {
 
   // load the service's module
   beforeEach(module('linkJayApp'));
 
   // instantiate service
-  var Users;
-  beforeEach(inject(function (_Users_) {
-    Users = _Users_;
+  var Toasty;
+  beforeEach(inject(function (_Toasty_) {
+    Toasty = _Toasty_;
   }));
 
   it('should do something', function () {
-    expect(!!Users).toBe(true);
+    expect(!!Toasty).toBe(true);
   });
 
 });

@@ -3,7 +3,7 @@
 describe('Controller: ActivenavCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('linkDumpApp'));
+  beforeEach(module('linkJayApp'));
 
   var ActivenavCtrl,
     scope;

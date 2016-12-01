@@ -1,18 +1,18 @@
 'use strict';
 
-describe('Service: Users', function () {
+describe('Service: Gridify', function () {
 
   // load the service's module
   beforeEach(module('linkJayApp'));
 
   // instantiate service
-  var Users;
-  beforeEach(inject(function (_Users_) {
-    Users = _Users_;
+  var Gridify;
+  beforeEach(inject(function (_Gridify_) {
+    Gridify = _Gridify_;
   }));
 
   it('should do something', function () {
-    expect(!!Users).toBe(true);
+    expect(!!Gridify).toBe(true);
   });
 
 });

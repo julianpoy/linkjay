@@ -2,13 +2,15 @@
 
 /**
  * @ngdoc function
- * @name linkDumpApp.controller:ActivenavCtrl
+ * @name linkJayApp.controller:ActivenavCtrl
  * @description
  * # forgotCtrl
- * Controller of the linkDumpApp
+ * Controller of the linkJayApp
  */
-angular.module('linkDumpApp')
-  .controller('ForgotCtrl', function($scope, $location, $cookies, $routeParams, Forgot, Session) {
+angular.module('linkJayApp')
+  .controller('ForgotCtrl', function($scope, $location,
+      $cookies, $routeParams, Forgot, Session,
+      Toasty) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -39,30 +41,21 @@ angular.module('linkDumpApp')
       if (emailRegex.test($scope.forgot.username)) {
         Forgot.forgot($scope.forgot,
           function(data, status) {
-              $mdToast.show(
-                $mdToast.simple()
-                  .content("Now, check your email!")
-                  .position('top right')
-                  .hideDelay(6000)
-              );
+
+              //Show a toast
+              Toasty.show("Now, check your email!", 6000);
 
             $location.path("/");
           },
           function(err) {
-              $mdToast.show(
-                $mdToast.simple()
-                  .content(err.data.msg)
-                  .position('top right')
-                  .hideDelay(3000)
-              );
+
+              //Show a toast
+              Toasty.show(err.data.msg);
           });
       } else {
-          $mdToast.show(
-            $mdToast.simple()
-              .content("Only email-based accounts can use the reset-feature. Please contact devs.")
-              .position('top right')
-              .hideDelay(3000)
-          );
+
+          //Show a toast
+          Toasty.show("Only email-based accounts can use the reset-feature. Please contact developers.");
       }
     }
 

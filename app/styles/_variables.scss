@@ -1,0 +1,41 @@
+//All of our color values for the web site
+//Gonna use poke palletes cause thatd be dope! http://pokepalettes.com/#hydreigon
+$pageBGColor: #6D4C41;
+$pageBGAlpha: rgba(90, 131, 205, 0.25);
+$pageText: #292029;
+$cardBG: #eeeeee;
+$cardBGHover: #e2e2e2;
+$placeholderText: #bdbdbd;
+$navBG: #4FC3F7;
+$navText: black;
+$navActiveTab: #413941;
+$linkText: #732918;
+$buttonBG: #732918;
+$buttonBGHover: #9c4131;
+$labelText: #0092d4;
+$labelTextHover: #01b0ff;
+$dropURL: #732918;
+$dropURLHover: #9e5140;
+
+
+
+//Default yeoman colors
+$siteBG: #6D4C41;
+$defaultHeader: #e5e5e5;
+$void: #000;
+
+
+//Other various Variables
+
+//Some content variables
+$pageWidth: auto;
+$columnWidth: 500px;
+
+//Animation Speed for transitions
+$slowAnimationSpeed: 0.75s;
+$baseAnimationSpeed: 0.5s;
+
+//Out Font Sizes
+$fontSize: 14px;
+$linkSize: 16px;
+$buttonSize: 16px;
