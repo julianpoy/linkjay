@@ -28,6 +28,7 @@ module.exports = function(config) {
       'bower_components/angular-favicon/angular-favicon.js',
       'bower_components/angular-inview/angular-inview.js',
       'bower_components/angular-aria/angular-aria.js',
+      'bower_components/angular-messages/angular-messages.js',
       'bower_components/angular-material/angular-material.js',
       'bower_components/angular-resource/angular-resource.js',
       'bower_components/angular-route/angular-route.js',
