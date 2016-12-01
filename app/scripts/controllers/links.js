@@ -274,9 +274,12 @@ angular.module('linkJayApp')
     // Label Operations
     //##############################
 
-		$scope.showSidebar = false;
-		$scope.toggleSidebar = function(){
-			$scope.showSidebar = !$scope.showSidebar;
+		$scope.showLabelSidebar = localStorage.getItem("showLabelSidebar") == "true";
+		$scope.toggleLabelSidebar = function(){
+			$scope.showLabelSidebar = !$scope.showLabelSidebar;
+			if($scope.showLabelSidebar) localStorage.setItem("showLabelSidebar", "true");
+			else localStorage.removeItem("showLabelSidebar");
+
 		}
 
     //Submit a dumped link
